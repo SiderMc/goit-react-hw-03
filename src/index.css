@@ -1,6 +1,6 @@
 ul{
     list-style: none;
 }
-ul,p{
+ul,p,h1{
     margin: 0;
 }

@@ -38,8 +38,8 @@ export default function App() {
   return (
     <div className={css.wrapper}>
       <section className={css.section}>
-        <section className={css.phonebook}>
           <div className={css.container}>
+              <h1 className={css.title}>Phonebook</h1>
             <div className={css.content}>
               <ContactForm addContacts={addContacts} />
               <SearchBox filter={filter} filterContacts={filterContacts} />
@@ -50,7 +50,6 @@ export default function App() {
             />
           </div>
         </section>
-      </section>
     </div>
   );
 }
