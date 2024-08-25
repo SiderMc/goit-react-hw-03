@@ -1,0 +1,22 @@
+.wrapper{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.section{
+  padding-block: 30px 50px;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 50px;
+}

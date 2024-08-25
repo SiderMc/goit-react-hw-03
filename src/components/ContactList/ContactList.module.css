@@ -1,0 +1,13 @@
+.contacts__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contacts__list_item{
+    width: calc((100% - 20px) / 2);
+    border: 3px solid #1976d2;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+/* #9c27b0 */
